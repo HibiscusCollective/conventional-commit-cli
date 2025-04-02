@@ -1,9 +1,18 @@
-# {PROJECT_NAME}
+# Hibiscus Commit CLI
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/HibiscusCollective/hibikey/badge)](https://scorecard.dev/viewer/?uri=github.com/HibiscusCollective/hibikey)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/HibiscusCollective/conventional-commit-cli/badge)](https://scorecard.dev/viewer/?uri=github.com/HibiscusCollective/conventional-commit-cli)
 
-{PROJECT_DESCRIPTION}
+A context-aware CLI that:
+
+- Remembers your team's common scopes/co-authors/issues
+- Works with existing commitlint configurations
+- Provides typeahead for values from:
+  - Local git history
+  - Project documentation
+  - Integrated APIs (future)
+
+**Upcoming**: Jira/GitLab/GitHub integration for live issue tracking
 
 ## License
 
