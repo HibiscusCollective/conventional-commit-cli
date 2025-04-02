@@ -3,6 +3,7 @@ members = ["crates/lib"]
 resolver = "3"
 
 [workspace.package]
+name = "hibiscus-commit"
 version = "0.1.0"
 authors = [
     "Pierre Fouilloux",
@@ -10,13 +11,14 @@ authors = [
 ]
 edition = "2024"
 rust-version = "1.85"
-description = "TODO: Project description"
-documentation = "TODO: Project documentation"
+description = "A context-aware conventional-commit compliant CLI tool to speed up your workflow"
+documentation = "https://github.com/HibiscusCollective/conventional-commit-cli"
 readme = "README.md"
-homepage = "TODO: Project homepage"
-repository = "TODO: Project repository"
-license = "TODO: Project license"
-keywords = ["TODO: Project keywords"]
+homepage = "https://github.com/HibiscusCollective/conventional-commit-cli"
+repository = "https://github.com/HibiscusCollective/conventional-commit-cli"
+license = "AGPL-3.0-or-later"
+categories = ["development-tools", "command-line-utilities", "filesystem"]
+keywords = ["conventional-commit", "commit", "git", "tools", "cli"]
 exclude = ["target/", "*.log", "*.tmp"]
 include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]
 publish = true
