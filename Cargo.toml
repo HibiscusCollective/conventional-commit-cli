@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/lib"]
+members = ["crates/lib", "crates/cli"]
 resolver = "3"
 
 [workspace.package]
@@ -30,4 +30,4 @@ perf = "deny"
 pedantic = "warn"
 
 [workspace.dependencies]
-lib = { path = "crates/lib" }
+libhibiscus-commit = { path = "crates/lib" }
